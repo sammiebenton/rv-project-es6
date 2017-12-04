@@ -1,0 +1,270 @@
+@media (max-width: 450px){
+	
+	body{
+		background: transparent url('../img/water-image.png') center no-repeat;
+		background-size: 100%;
+	}
+	
+.modal{
+	position: fixed;
+	left: 0; top: 0;
+	width: 360px; height: 100%;
+	background: transparent url('../img/black_opacity.png') 0 0 repeat;
+	background-size: cover;
+	z-index: 200;
+	.modal-body{
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		width: 350px; height: 690px;
+		background: #FFFFFF;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		
+		.input-group{
+			.modal-submit{
+				position: absolute;
+				right: 100px; top: 463px;
+				height: 20px; width: 20px;
+				background: url('') center no-repeat;
+				background-size: 80%;
+				visibility: hidden;
+			}
+			&#ownPool{
+				#buttons{
+					float: left;
+					width: 180px;
+					margin-left: -10px;
+					button{
+						display:inline-block;
+						margin-left: 10px;
+//						visibility: hidden;
+					}
+				}
+				#yesNo{
+					margin-top: -50px;
+					margin-left: 0px;
+					padding-left: 0px;
+					width: 130px;
+					visibility: visible;
+					input[type="checkbox"]{
+						display: inline;
+						background: #FFF;
+						width: 50px;
+						padding: 0px; margin: 0px;
+						&+span{
+							margin-left: -30px;
+						}
+					}
+				}
+			}
+			button[type="submit"]{
+				position: absolute;
+				top: 460px; left: 10px;
+				width: 95%; height: 50px;
+//				margin-top: 155px 15px;
+				text-align: right;
+				float: right;
+			}
+		}
+	}
+	
+}
+	
+	header{
+		visibility: hidden !important;
+		height: 25px; width: 100%;
+		background: #083d8c;
+		.inner-header{
+			p{
+				.header-icon{
+					height: 25px; width: 25px;
+					background: #FFF url('../img/action-commercial-icon.png') center no-repeat;
+					background-size: contain;
+				}
+			}
+		}
+	}
+
+  .grid, .grid-1, .grid-2, .grid-3, .grid-4 {
+    display: block;
+  }
+	
+	
+	//nav mobile
+#topNav{
+	margin-top: -25px;
+	.show-menu {
+		height: 40px;
+		display: block;
+		text-decoration: none;
+		color: #000;
+		background: #fff;
+		text-align: center;
+		display: flex;
+		width: 100% !important;
+
+		.find-pool-pro{
+			position: absolute;
+			left: 190px; top: 5px;
+			.desktop{ visibility: hidden}
+			.mobile{ visibility: visible}
+		}
+
+		.show-menu-btn{
+			visibility: visible!important;
+
+		}
+	}
+}
+	
+#filters{
+	margin-top: 200px;
+	background: #efefef;
+//	width: 350px;
+	margin-right: 20px;
+	#filter-zip {
+//    width: 100%;
+    float: left;
+		text-align: center;
+		font: 1em 'OpenSans-Bold';
+		color: #216ddf;
+	}
+	.col{
+		&#filter-links {
+//			width: 100%;
+			float: left;
+			display: flex;
+			justify-content: center;
+			float: left;
+			padding: 0; margin: 15px -10px;
+				
+				label{
+					&#filterResults{
+						position: absolute;
+						top: 265px; left: 380px;
+						font: 1em 'OpenSans-Bold';
+						color: #000000;
+						border: 1px solid #ddd;
+						margin: -100px 0px;
+						span{
+							height: 16px; width: 16px;
+							border-right: 1px solid #ddd;
+							border-left: 1px solid #ddd;
+							padding-right: 10px;
+							padding-left: 10px;
+						}
+						span#mobileToggleResults{
+							height: 16px; width: 16px;
+							border-right: 1px solid #ddd;
+							border-left: 1px solid #ddd;
+							padding-right: 10px;
+							padding-left: 10px;
+						}
+					}
+				}
+				#checkboxes{
+					
+					margin: 30px -195px;
+						border: 1px solid #ddd;
+					.input-group{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	
+	
+	//dealers mobile
+	#dealers{
+		max-width: 360px; min-height: 550px;
+		margin: 20px auto; overflow: hidden;
+		display: block flex;
+		justify-content: space-between;
+		text-align: center;
+
+		.dealer{
+			display:block;
+			height: auto; max-width: 355px;
+		
+			.dealer-phone{
+				
+				.dealer-phone-icon{
+					width: 25px; height: 25px;
+					background: url('../img/phone-icon-desktop.png') center no-repeat;
+					background-size: contain;
+					float: left;
+					margin-left: 75px;
+					margin-top: 10px;
+					visibility: hidden;
+				}
+			}
+
+			.dealer-footer{
+				display: block;
+				left: 0; bottom: 0;
+				width: 350px;
+				padding: 0; margin: 0;
+				margin-left: -30px;
+				table{
+					width: 300px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					text-align: center;
+					tr{
+						td{
+							float: left; text-align: left;
+							margin-left: 0; left: 0px;
+							width: 177.5px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+//footer 
+footer{
+	width: 200px;
+	background: #083d8c;
+		#footer{
+			#copy{
+				ul#header-footer{
+						font: 1em 'OpenSans-Light';
+						list-style-type: none;
+						margin: 0 auto; padding: 0;
+		//				width: 100%;
+						color: #FFF;
+						visibility: visible !important;
+					li{
+						display: inline;
+						
+						img#commercial-icon{
+							height: 16px; width: 16px;
+							margin: -3px 10px;
+						}
+					}
+				}
+					hr{
+						visibility: visible;
+						border-bottom: 2px solid #DDD;
+						margin: 0 auto;
+						width: 80%;
+						margin-left: 5%;
+					}
+				p{
+					font: 1em 'OpenSans-Light';
+				}
+			}
+		}
+	}
+}

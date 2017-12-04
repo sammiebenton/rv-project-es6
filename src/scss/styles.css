@@ -1,0 +1,103 @@
+@import url(../fonts/OpenSans.css);
+@import url(mastyle.css);
+body {
+  font-family: "OpenSans";
+  background: #FFFFFF url(../img/water-image.png) center no-repeat;
+  background-position: 0 50px;
+  margin-top: 250px; }
+
+nav#mainNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: auto;
+  background: url("../img/white_opacity.png") center no-repeat;
+  background-size: cover;
+  border-bottom: #000 solid 2px;
+  border-top: #083d8c solid 30px;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  nav#mainNav #nav-logo {
+    position: relative;
+    background: url("../img/pool-pros-logo.png") center no-repeat;
+    background-size: 60%;
+    width: 250px; }
+  nav#mainNav ul#navbar {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none; }
+    nav#mainNav ul#navbar li {
+      float: right;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 40px;
+      flex: 1;
+      font-size: 10px; }
+      nav#mainNav ul#navbar li a {
+        display: block;
+        text-align: center;
+        text-decoration: none; }
+        nav#mainNav ul#navbar li a:link {
+          color: #083d8c; }
+        nav#mainNav ul#navbar li a:active {
+          color: #083d8c; }
+        nav#mainNav ul#navbar li a:visited {
+          color: #083d8c; }
+        nav#mainNav ul#navbar li a:hover {
+          color: #083d8c; }
+  nav#mainNav button#findPoolPro {
+    border: solid 1px #083d8c;
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto; }
+
+#filter-box {
+  border-radius: 5px;
+  background: #DDD;
+  height: 50px;
+  width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+#dealer-box-wrapper {
+  border-radius: 5px;
+  background: #FFF;
+  height: 550px;
+  width: 1180px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+  #dealer-box-wrapper .dealer-box {
+    box-shadow: 0px 0px 4px #333;
+    border-radius: 5px;
+    margin-bottom: 20px; }
+    #dealer-box-wrapper .dealer-box p#dealer-title {
+      font-size: 1.5em;
+      padding: 10px;
+      border-bottom: 1px #000 solid;
+      height: 60px;
+      width: 85%;
+      margin-left: 5%;
+      text-align: center; }
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 110%;
+  min-height: 150px;
+  background: #083d8c;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  border-bottom: solid 25px #216ddf; }
+
+/*# sourceMappingURL=styles.css.map */

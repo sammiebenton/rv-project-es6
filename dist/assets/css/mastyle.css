@@ -1,0 +1,708 @@
+/*font shortcuts*/
+.brush{font-family: 'webfontregular'}
+.bebas{font-family: 'BebasRegular'}
+.sans{font-family: 'SourceSansProRegular'}
+.arvo{font-family: 'ArvoRegular'}
+.gum{font-family: 'BubblegumSansRegular'}
+.home-font{font-family: 'SourceSansProRegular'; }
+.ama{font-family: 'AmaticSCRegular'}
+.exo{font-family: 'ExoRegular'}
+.lobster{font-family: 'lobsterRegular'}
+.chunk{font-family: 'ChunkFiveRegular'}
+.quick{font-family: 'quicksandregular'}
+.ale{font-family: 'AlegreyaRegular'}
+.des{font-family: 'DesyrelRegular'}
+.afta{font-family: 'afta_sansregular'}
+.bebas2{font-family: 'bebas_neueregular'}
+.baha{font-family: 'bahianaregular'}
+.bee{font-family: 'abeezeeregular'}
+.pac{font-family: 'pacificoregular'}
+.gothic{font-family: 'league_gothicregular'}
+.college{font-family: 'sf_collegiateregular'}
+.yellowtail{font-family: 'Yellowtail'}
+.narrow{font-family: 'PT Sans Narrow'}
+.anton{font-family: 'antonioregular'}
+.diner{font-family: 'diner-fattregular'}
+.corb{font-family: 'corbertregular'}
+.code2{font-family: 'CodeProDemoRegular'}
+.code1{font-family: 'CodeProLightDemoRegular'}
+.robot{font-family: 'Roboto Slab'}
+.rust{font-family: 'nexa_rust_slabblack_shadow_01';}
+.fff{font-family: 'FFFTusjBold';}
+/*end of font shortcuts*/
+
+/*font colors*/
+.white{color:rgb(255,255,255)}
+.grey{color:#999}
+.pink{color:rgb(255,0,255)}
+.red{color:rgb(255,0,0)}
+.green{color:rgb(0,255,0)}
+.blue{color:rgb(0,0,255)}
+.light-blue{color:rgb(0,255,255)}
+.orange{color:orange}
+.yellow{color:yellow}
+.muted{color:rgb(99,99,99)}
+.black{color: rgb(0,0,0)}
+/*end colors*/
+
+/*font-sizes*/
+.half-em{font-size:0.5em}
+.one-em{font-size:1em}
+.one-half-em{font-size:1.5em}
+.two-em{font-size:2em}
+.three-em{font-size:3em}
+.four-em{font-size:4em}
+.five-em{font-size:5em}
+.six-em{font-size:6em}
+.seven-em{font-size:7em}
+.eight-em{font-size:8em}
+.nine-em{font-size:9em}
+.ten-em{font-size:10em}
+.jumbo {font-size:100px}
+/*end of font-sizes*/
+
+/*decoration*/
+.strong{font-weight: bold}
+.italic{font-style: italic}
+/*end of decoration*/
+
+/*text display*/
+.inline{display: inline}
+/*text display end*/
+
+.stretchH{height: 100%}
+.stretchW{width: 100%}
+
+/*margin*/
+.marginup25{margin-top: -25px}
+.marginup50{margin-top: -50px}
+.marginup75{margin-top: -75px}
+.marginup100{margin-top: -100px}
+.marginup150{margin-top: -150px}
+.marginup200{margin-top: -200px}
+.marginup300{margin-top: -250px}
+.marginup400{margin-top: -300px}
+/*end of margin*/
+
+/*margin*/
+.margindown25{margin-bottom: -25px}
+.margindown50{margin-bottom: -50px}
+.margindown75{margin-bottom: -75px}
+.margindown100{margin-bottom: -100px}
+.margindown150{margin-bottom: -150px}
+.margindown200{margin-bottom: -200px}
+.margindown300{margin-bottom: -250px}
+.margindown400{margin-bottom: -300px}
+/*end of margin*/
+
+/*padding quick*/
+.paddingup25{padding-top: 25px}
+.paddingup50{padding-top: 50px}
+.paddingup75{padding-top: 75px}
+.paddingup100{padding-top: 100px}
+.paddingdown25{padding-bottom: 25px}
+.paddingdown50{padding-bottom: 50px}
+.paddingdown75{padding-bottom: 75px}
+.paddingdown100{padding-bottom: 100px}
+/*end of padding quick*/
+
+/*bg*/
+.bg-white{background-color:rgb(255,255,255)}
+.bg-grey{background-color:rgb(111,111,111)}
+.bg-pink{background-color:rgb(255,0,255)}
+.bg-red{background-color:rgb(255,0,0)}
+.bg-green{background-color:rgb(0,255,0)}
+.bg-blue{background-color:rgb(0,0,255)}
+.bg-light-blue{background-color:rgb(0,255,255)}
+.bg-orange{background-color:orange}
+.bg-yellow{background-color:yellow}
+.bg-muted{background-color:rgb(99,99,99)}
+.bg-black{background-color: rgb(0,0,0)}
+.bg-light-grey{background-color: rgb(166,166,166)}
+.bg-cool-grey{background-color: rgb(166,166,166)}
+.bg-eggshell{background-color: rgb(200,200,200)}
+.bg-easter-blue{background-color: rgb(0,133,133)}
+/*end of bg*/
+
+
+/**/
+.white-opacity{
+    background-image:url(../img/white_opacity.png);
+    background-color:transparent;
+    background-position:center;
+    background-repeat:repeat;
+    background-size:cover;
+}
+.black-opacity{
+    background-image:url(../img/black_opacity.png);
+    background-color:transparent;
+    background-position:center;
+    background-repeat:repeat;
+    background-size:cover;
+}
+.green-opacity{
+    background-image:url(../img/green_opacity.png);
+    background-color:transparent;
+    background-position:center;
+    background-repeat:repeat;
+    background-size:cover;
+}
+.blue-opacity{
+    background-image:url(../img/blue_opacity.png);
+    background-color:transparent;
+    background-position:center;
+    background-repeat:repeat;
+    background-size:cover;
+}
+.orange-opacity{
+    background-image:url(../img/orange_opacity.png);
+    background-color:transparent;
+    background-position:center;
+    background-repeat:repeat;
+    background-size:cover;
+}
+/**/
+
+/*mini flex grid*/
+/*flexbox grid*/
+
+.grid { display: flex; margin: 0 0 20px 0; }
+
+.grid * {display: flex; flex-direction: row; text-align: center;}
+
+.grid .col {
+	flex: 1;
+	text-align: center;
+}
+
+.grid-col-3, .grid-col-2, .grid-col-3, .grid-col-4, .grid-col-5, .grid-col-6 {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.grid-col-3, .grid-col-2, .grid-col-3, .grid-col-4, .grid-col-5, .grid-col-6 .col{
+	text-align: center;
+}
+
+.grid-col-1 .col { width: 90%; }
+.grid-col-2 .col { width: 48%; }
+.grid-col-3 .col { width: 32%; }
+.grid-col-4 .col { width: 24%; }
+.grid-col-5 .col { width: 19%; }
+.grid-col-6 .col { width: 15.5%; }
+
+.col{
+	display: flex;
+}
+.col p { margin-left: auto; margin-right: auto;}
+
+/*end of mini flex grid*/
+
+
+/* ../fonts */
+
+@font-face {
+    font-family: 'CodeProDemoRegular';
+    src: url('../fonts/Code_Pro_Demo-webfont.eot');
+    src: url('../fonts/Code_Pro_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Code_Pro_Demo-webfont.woff') format('woff'),
+         url('../fonts/Code_Pro_Demo-webfont.ttf') format('truetype'),
+         url('../fonts/Code_Pro_Demo-webfont.svg#CodeProDemoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CodeProLightDemoRegular';
+    src: url('../fonts/Code_Pro_Light_Demo-webfont.eot');
+    src: url('../fonts/Code_Pro_Light_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Code_Pro_Light_Demo-webfont.woff') format('woff'),
+         url('../fonts/Code_Pro_Light_Demo-webfont.ttf') format('truetype'),
+         url('../fonts/Code_Pro_Light_Demo-webfont.svg#CodeProLightDemoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_rust_slabblack_shadow_01';
+    src: url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'corbertregular';
+    src: url('../fonts/Corbert-Regular-webfont.eot');
+    src: url('../fonts/Corbert-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Corbert-Regular-webfont.woff') format('woff'),
+         url('../fonts/Corbert-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Corbert-Regular-webfont.svg#corbertregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'diner-fattregular';
+    src: url('../fonts/Diner-Fatt-webfont.eot');
+    src: url('../fonts/Diner-Fatt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Diner-Fatt-webfont.woff') format('woff'),
+         url('../fonts/Diner-Fatt-webfont.ttf') format('truetype'),
+         url('../fonts/Diner-Fatt-webfont.svg#diner-fattregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_collegiateregular';
+    src: url('../fonts/SF_Collegiate-webfont.eot');
+    src: url('../fonts/SF_Collegiate-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SF_Collegiate-webfont.woff') format('woff'),
+         url('../fonts/SF_Collegiate-webfont.ttf') format('truetype'),
+         url('../fonts/SF_Collegiate-webfont.svg#sf_collegiateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('../fonts/pacifico-webfont.eot');
+    src: url('../fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pacifico-webfont.woff') format('woff'),
+         url('../fonts/pacifico-webfont.ttf') format('truetype'),
+         url('../fonts/pacifico-webfont.svg#pacificoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'webfontregular';
+    src: url('../fonts/BRUSHSTP-webfont.eot');
+    src: url('../fonts/BRUSHSTP-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BRUSHSTP-webfont.woff') format('woff'),
+         url('../fonts/BRUSHSTP-webfont.ttf') format('truetype'),
+         url('../fonts/BRUSHSTP-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'afta_sansregular';
+    src: url('../fonts/aftasansthin-regular-webfont.eot');
+    src: url('../fonts/aftasansthin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aftasansthin-regular-webfont.woff') format('woff'),
+         url('../fonts/aftasansthin-regular-webfont.ttf') format('truetype'),
+         url('../fonts/aftasansthin-regular-webfont.svg#afta_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lobsterRegular';
+    src: url('../fonts/lobster_1.3-webfont.eot');
+    src: url('../fonts/lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lobster_1.3-webfont.woff') format('woff'),
+         url('../fonts/lobster_1.3-webfont.ttf') format('truetype'),
+         url('../fonts/lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ExoRegular';
+    src: url('../fonts/Exo-Regular-webfont.eot');
+    src: url('../fonts/Exo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo-Regular-webfont.woff') format('woff'),
+         url('../fonts/Exo-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Exo-Regular-webfont.svg#ExoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DesyrelRegular';
+    src: url('../fonts/desyrel-webfont.eot');
+    src: url('../fonts/desyrel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/desyrel-webfont.woff') format('woff'),
+         url('../fonts/desyrel-webfont.ttf') format('truetype'),
+         url('../fonts/desyrel-webfont.svg#DesyrelRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AlegreyaRegular';
+    src: url('../fonts/Alegreya-Regular-webfont.eot');
+    src: url('../fonts/Alegreya-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Alegreya-Regular-webfont.woff') format('woff'),
+         url('../fonts/Alegreya-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Alegreya-Regular-webfont.svg#AlegreyaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../fonts/SourceSansPro-Regular-webfont.eot');
+    src: url('../fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+url('../fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+url('../fonts/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('../fonts/Chunkfive-webfont.eot');
+    src: url('../fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Chunkfive-webfont.woff') format('woff'),
+url('../fonts/Chunkfive-webfont.ttf') format('truetype'),
+url('../fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'antonioregular';
+    src: url('../fonts/antonio-regular-webfont.eot');
+    src: url('../fonts/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/antonio-regular-webfont.woff') format('woff'),
+         url('../fonts/antonio-regular-webfont.ttf') format('truetype'),
+         url('../fonts/antonio-regular-webfont.svg#antonioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BubblegumSansRegular';
+    src: url('../fonts/BubblegumSans-Regular-webfont.eot');
+    src: url('../fonts/BubblegumSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/BubblegumSans-Regular-webfont.woff') format('woff'),
+url('../fonts/BubblegumSans-Regular-webfont.ttf') format('truetype'),
+url('../fonts/BubblegumSans-Regular-webfont.svg#BubblegumSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'FFFTusjBold';
+    src: url('../fonts/FFF_Tusj-webfont.eot');
+    src: url('../fonts/FFF_Tusj-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/FFF_Tusj-webfont.woff') format('woff'),
+url('../fonts/FFF_Tusj-webfont.ttf') format('truetype'),
+url('../fonts/FFF_Tusj-webfont.svg#FFFTusjBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ArchitectsDaughterRegular';
+    src: url('../fonts/ArchitectsDaughter-webfont.eot');
+    src: url('../fonts/ArchitectsDaughter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ArchitectsDaughter-webfont.woff') format('woff'),
+         url('../fonts/ArchitectsDaughter-webfont.ttf') format('truetype'),
+         url('../fonts/ArchitectsDaughter-webfont.svg#ArchitectsDaughterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../fonts/BEBAS___-webfont.eot');
+    src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BEBAS___-webfont.woff') format('woff'),
+         url('../fonts/BEBAS___-webfont.ttf') format('truetype'),
+         url('../fonts/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'JournalRegular';
+    src: url('../fonts/journal-webfont.eot');
+    src: url('../fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/journal-webfont.woff') format('woff'),
+         url('../fonts/journal-webfont.ttf') format('truetype'),
+         url('../fonts/journal-webfont.svg#JournalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abeezeeregular';
+    src: url('../fonts/abeezee-regular-webfont.eot');
+    src: url('../fonts/abeezee-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/abeezee-regular-webfont.woff') format('woff'),
+         url('../fonts/abeezee-regular-webfont.ttf') format('truetype'),
+         url('../fonts/abeezee-regular-webfont.svg#abeezeeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bahianaregular';
+    src: url('../fonts/bahiana-regular-webfont.eot');
+    src: url('../fonts/bahiana-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bahiana-regular-webfont.woff') format('woff'),
+         url('../fonts/bahiana-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bahiana-regular-webfont.svg#bahianaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*rotation*/
+
+.rotate1 {transform:rotate(1deg); -ms-transform:rotate(1deg); -webkit-transform:rotate(1deg); -moz-transform:rotate(1deg)}
+ .rotate2 {transform:rotate(2deg); -ms-transform:rotate(2deg); -webkit-transform:rotate(2deg); -moz-transform:rotate(2deg)}
+ .rotate3 {transform:rotate(3deg); -ms-transform:rotate(3deg); -webkit-transform:rotate(3deg); -moz-transform:rotate(3deg)}
+ .rotate4 {transform:rotate(4deg); -ms-transform:rotate(4deg); -webkit-transform:rotate(4deg); -moz-transform:rotate(4deg)}
+ .rotate5 {transform:rotate(5deg); -ms-transform:rotate(5deg); -webkit-transform:rotate(5deg); -moz-transform:rotate(5deg)}
+ .rotate6 {transform:rotate(6deg); -ms-transform:rotate(6deg); -webkit-transform:rotate(6deg); -moz-transform:rotate(6deg)}
+ .rotate7 {transform:rotate(7deg); -ms-transform:rotate(7deg); -webkit-transform:rotate(7deg); -moz-transform:rotate(7deg)}
+ .rotate8 {transform:rotate(8deg); -ms-transform:rotate(8deg); -webkit-transform:rotate(8deg); -moz-transform:rotate(8deg)}
+ .rotate9 {transform:rotate(9deg); -ms-transform:rotate(9deg); -webkit-transform:rotate(9deg); -moz-transform:rotate(9deg)}
+ .rotate10 {transform:rotate(10deg); -ms-transform:rotate(10deg); -webkit-transform:rotate(10deg); -moz-transform:rotate(10deg)}
+ .rotate11 {transform:rotate(11deg); -ms-transform:rotate(11deg); -webkit-transform:rotate(11deg); -moz-transform:rotate(11deg)}
+ .rotate12 {transform:rotate(12deg); -ms-transform:rotate(12deg); -webkit-transform:rotate(12deg); -moz-transform:rotate(12deg)}
+ .rotate13 {transform:rotate(13deg); -ms-transform:rotate(13deg); -webkit-transform:rotate(13deg); -moz-transform:rotate(13deg)}
+ .rotate14 {transform:rotate(14deg); -ms-transform:rotate(14deg); -webkit-transform:rotate(14deg); -moz-transform:rotate(14deg)}
+ .rotate15 {transform:rotate(15deg); -ms-transform:rotate(15deg); -webkit-transform:rotate(15deg); -moz-transform:rotate(15deg)}
+ .rotate16 {transform:rotate(16deg); -ms-transform:rotate(16deg); -webkit-transform:rotate(16deg); -moz-transform:rotate(16deg)}
+ .rotate17 {transform:rotate(17deg); -ms-transform:rotate(17deg); -webkit-transform:rotate(17deg); -moz-transform:rotate(17deg)}
+ .rotate18 {transform:rotate(18deg); -ms-transform:rotate(18deg); -webkit-transform:rotate(18deg); -moz-transform:rotate(18deg)}
+ .rotate19 {transform:rotate(19deg); -ms-transform:rotate(19deg); -webkit-transform:rotate(19deg); -moz-transform:rotate(19deg)}
+ .rotate20 {transform:rotate(20deg); -ms-transform:rotate(20deg); -webkit-transform:rotate(20deg); -moz-transform:rotate(20deg)}
+ .rotate21 {transform:rotate(21deg); -ms-transform:rotate(21deg); -webkit-transform:rotate(21deg); -moz-transform:rotate(21deg)}
+ .rotate22 {transform:rotate(22deg); -ms-transform:rotate(22deg); -webkit-transform:rotate(22deg); -moz-transform:rotate(22deg)}
+ .rotate23 {transform:rotate(23deg); -ms-transform:rotate(23deg); -webkit-transform:rotate(23deg); -moz-transform:rotate(23deg)}
+ .rotate24 {transform:rotate(24deg); -ms-transform:rotate(24deg); -webkit-transform:rotate(24deg); -moz-transform:rotate(24deg)}
+ .rotate25 {transform:rotate(25deg); -ms-transform:rotate(25deg); -webkit-transform:rotate(25deg); -moz-transform:rotate(25deg)}
+ .rotate26 {transform:rotate(26deg); -ms-transform:rotate(26deg); -webkit-transform:rotate(26deg); -moz-transform:rotate(26deg)}
+ .rotate27 {transform:rotate(27deg); -ms-transform:rotate(27deg); -webkit-transform:rotate(27deg); -moz-transform:rotate(27deg)}
+ .rotate28 {transform:rotate(28deg); -ms-transform:rotate(28deg); -webkit-transform:rotate(28deg); -moz-transform:rotate(28deg)}
+ .rotate29 {transform:rotate(29deg); -ms-transform:rotate(29deg); -webkit-transform:rotate(29deg); -moz-transform:rotate(29deg)}
+ .rotate30 {transform:rotate(30deg); -ms-transform:rotate(30deg); -webkit-transform:rotate(30deg); -moz-transform:rotate(30deg)}
+ .rotate31 {transform:rotate(31deg); -ms-transform:rotate(31deg); -webkit-transform:rotate(31deg); -moz-transform:rotate(31deg)}
+ .rotate32 {transform:rotate(32deg); -ms-transform:rotate(32deg); -webkit-transform:rotate(32deg); -moz-transform:rotate(32deg)}
+ .rotate33 {transform:rotate(33deg); -ms-transform:rotate(33deg); -webkit-transform:rotate(33deg); -moz-transform:rotate(33deg)}
+ .rotate34 {transform:rotate(34deg); -ms-transform:rotate(34deg); -webkit-transform:rotate(34deg); -moz-transform:rotate(34deg)}
+ .rotate35 {transform:rotate(35deg); -ms-transform:rotate(35deg); -webkit-transform:rotate(35deg); -moz-transform:rotate(35deg)}
+ .rotate36 {transform:rotate(36deg); -ms-transform:rotate(36deg); -webkit-transform:rotate(36deg); -moz-transform:rotate(36deg)}
+ .rotate37 {transform:rotate(37deg); -ms-transform:rotate(37deg); -webkit-transform:rotate(37deg); -moz-transform:rotate(37deg)}
+ .rotate38 {transform:rotate(38deg); -ms-transform:rotate(38deg); -webkit-transform:rotate(38deg); -moz-transform:rotate(38deg)}
+ .rotate39 {transform:rotate(39deg); -ms-transform:rotate(39deg); -webkit-transform:rotate(39deg); -moz-transform:rotate(39deg)}
+ .rotate40 {transform:rotate(40deg); -ms-transform:rotate(40deg); -webkit-transform:rotate(40deg); -moz-transform:rotate(40deg)}
+ .rotate41 {transform:rotate(41deg); -ms-transform:rotate(41deg); -webkit-transform:rotate(41deg); -moz-transform:rotate(41deg)}
+ .rotate42 {transform:rotate(42deg); -ms-transform:rotate(42deg); -webkit-transform:rotate(42deg); -moz-transform:rotate(42deg)}
+ .rotate43 {transform:rotate(43deg); -ms-transform:rotate(43deg); -webkit-transform:rotate(43deg); -moz-transform:rotate(43deg)}
+ .rotate44 {transform:rotate(44deg); -ms-transform:rotate(44deg); -webkit-transform:rotate(44deg); -moz-transform:rotate(44deg)}
+ .rotate45 {transform:rotate(45deg); -ms-transform:rotate(45deg); -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg)}
+ .rotate46 {transform:rotate(46deg); -ms-transform:rotate(46deg); -webkit-transform:rotate(46deg); -moz-transform:rotate(46deg)}
+ .rotate47 {transform:rotate(47deg); -ms-transform:rotate(47deg); -webkit-transform:rotate(47deg); -moz-transform:rotate(47deg)}
+ .rotate48 {transform:rotate(48deg); -ms-transform:rotate(48deg); -webkit-transform:rotate(48deg); -moz-transform:rotate(48deg)}
+ .rotate49 {transform:rotate(49deg); -ms-transform:rotate(49deg); -webkit-transform:rotate(49deg); -moz-transform:rotate(49deg)}
+ .rotate50 {transform:rotate(50deg); -ms-transform:rotate(50deg); -webkit-transform:rotate(50deg); -moz-transform:rotate(50deg)}
+ .rotate51 {transform:rotate(51deg); -ms-transform:rotate(51deg); -webkit-transform:rotate(51deg); -moz-transform:rotate(51deg)}
+ .rotate52 {transform:rotate(52deg); -ms-transform:rotate(52deg); -webkit-transform:rotate(52deg); -moz-transform:rotate(52deg)}
+ .rotate53 {transform:rotate(53deg); -ms-transform:rotate(53deg); -webkit-transform:rotate(53deg); -moz-transform:rotate(53deg)}
+ .rotate54 {transform:rotate(54deg); -ms-transform:rotate(54deg); -webkit-transform:rotate(54deg); -moz-transform:rotate(54deg)}
+ .rotate55 {transform:rotate(55deg); -ms-transform:rotate(55deg); -webkit-transform:rotate(55deg); -moz-transform:rotate(55deg)}
+ .rotate56 {transform:rotate(56deg); -ms-transform:rotate(56deg); -webkit-transform:rotate(56deg); -moz-transform:rotate(56deg)}
+ .rotate57 {transform:rotate(57deg); -ms-transform:rotate(57deg); -webkit-transform:rotate(57deg); -moz-transform:rotate(57deg)}
+ .rotate58 {transform:rotate(58deg); -ms-transform:rotate(58deg); -webkit-transform:rotate(58deg); -moz-transform:rotate(58deg)}
+ .rotate59 {transform:rotate(59deg); -ms-transform:rotate(59deg); -webkit-transform:rotate(59deg); -moz-transform:rotate(59deg)}
+ .rotate60 {transform:rotate(60deg); -ms-transform:rotate(60deg); -webkit-transform:rotate(60deg); -moz-transform:rotate(60deg)}
+ .rotate61 {transform:rotate(61deg); -ms-transform:rotate(61deg); -webkit-transform:rotate(61deg); -moz-transform:rotate(61deg)}
+ .rotate62 {transform:rotate(62deg); -ms-transform:rotate(62deg); -webkit-transform:rotate(62deg); -moz-transform:rotate(62deg)}
+ .rotate63 {transform:rotate(63deg); -ms-transform:rotate(63deg); -webkit-transform:rotate(63deg); -moz-transform:rotate(63deg)}
+ .rotate64 {transform:rotate(64deg); -ms-transform:rotate(64deg); -webkit-transform:rotate(64deg); -moz-transform:rotate(64deg)}
+ .rotate65 {transform:rotate(65deg); -ms-transform:rotate(65deg); -webkit-transform:rotate(65deg); -moz-transform:rotate(65deg)}
+ .rotate66 {transform:rotate(66deg); -ms-transform:rotate(66deg); -webkit-transform:rotate(66deg); -moz-transform:rotate(66deg)}
+ .rotate67 {transform:rotate(67deg); -ms-transform:rotate(67deg); -webkit-transform:rotate(67deg); -moz-transform:rotate(67deg)}
+ .rotate68 {transform:rotate(68deg); -ms-transform:rotate(68deg); -webkit-transform:rotate(68deg); -moz-transform:rotate(68deg)}
+ .rotate69 {transform:rotate(69deg); -ms-transform:rotate(69deg); -webkit-transform:rotate(69deg); -moz-transform:rotate(69deg)}
+ .rotate70 {transform:rotate(70deg); -ms-transform:rotate(70deg); -webkit-transform:rotate(70deg); -moz-transform:rotate(70deg)}
+ .rotate71 {transform:rotate(71deg); -ms-transform:rotate(71deg); -webkit-transform:rotate(71deg); -moz-transform:rotate(71deg)}
+ .rotate72 {transform:rotate(72deg); -ms-transform:rotate(72deg); -webkit-transform:rotate(72deg); -moz-transform:rotate(72deg)}
+ .rotate73 {transform:rotate(73deg); -ms-transform:rotate(73deg); -webkit-transform:rotate(73deg); -moz-transform:rotate(73deg)}
+ .rotate74 {transform:rotate(74deg); -ms-transform:rotate(74deg); -webkit-transform:rotate(74deg); -moz-transform:rotate(74deg)}
+ .rotate75 {transform:rotate(75deg); -ms-transform:rotate(75deg); -webkit-transform:rotate(75deg); -moz-transform:rotate(75deg)}
+ .rotate76 {transform:rotate(76deg); -ms-transform:rotate(76deg); -webkit-transform:rotate(76deg); -moz-transform:rotate(76deg)}
+ .rotate77 {transform:rotate(77deg); -ms-transform:rotate(77deg); -webkit-transform:rotate(77deg); -moz-transform:rotate(77deg)}
+ .rotate78 {transform:rotate(78deg); -ms-transform:rotate(78deg); -webkit-transform:rotate(78deg); -moz-transform:rotate(78deg)}
+ .rotate79 {transform:rotate(79deg); -ms-transform:rotate(79deg); -webkit-transform:rotate(79deg); -moz-transform:rotate(79deg)}
+ .rotate80 {transform:rotate(80deg); -ms-transform:rotate(80deg); -webkit-transform:rotate(80deg); -moz-transform:rotate(80deg)}
+ .rotate81 {transform:rotate(81deg); -ms-transform:rotate(81deg); -webkit-transform:rotate(81deg); -moz-transform:rotate(81deg)}
+ .rotate82 {transform:rotate(82deg); -ms-transform:rotate(82deg); -webkit-transform:rotate(82deg); -moz-transform:rotate(82deg)}
+ .rotate83 {transform:rotate(83deg); -ms-transform:rotate(83deg); -webkit-transform:rotate(83deg); -moz-transform:rotate(83deg)}
+ .rotate84 {transform:rotate(84deg); -ms-transform:rotate(84deg); -webkit-transform:rotate(84deg); -moz-transform:rotate(84deg)}
+ .rotate85 {transform:rotate(85deg); -ms-transform:rotate(85deg); -webkit-transform:rotate(85deg); -moz-transform:rotate(85deg)}
+ .rotate86 {transform:rotate(86deg); -ms-transform:rotate(86deg); -webkit-transform:rotate(86deg); -moz-transform:rotate(86deg)}
+ .rotate87 {transform:rotate(87deg); -ms-transform:rotate(87deg); -webkit-transform:rotate(87deg); -moz-transform:rotate(87deg)}
+ .rotate88 {transform:rotate(88deg); -ms-transform:rotate(88deg); -webkit-transform:rotate(88deg); -moz-transform:rotate(88deg)}
+ .rotate89 {transform:rotate(89deg); -ms-transform:rotate(89deg); -webkit-transform:rotate(89deg); -moz-transform:rotate(89deg)}
+ .rotate90 {transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); -moz-transform:rotate(90deg)}
+ .rotate91 {transform:rotate(91deg); -ms-transform:rotate(91deg); -webkit-transform:rotate(91deg); -moz-transform:rotate(91deg)}
+ .rotate92 {transform:rotate(92deg); -ms-transform:rotate(92deg); -webkit-transform:rotate(92deg); -moz-transform:rotate(92deg)}
+ .rotate93 {transform:rotate(93deg); -ms-transform:rotate(93deg); -webkit-transform:rotate(93deg); -moz-transform:rotate(93deg)}
+ .rotate94 {transform:rotate(94deg); -ms-transform:rotate(94deg); -webkit-transform:rotate(94deg); -moz-transform:rotate(94deg)}
+ .rotate95 {transform:rotate(95deg); -ms-transform:rotate(95deg); -webkit-transform:rotate(95deg); -moz-transform:rotate(95deg)}
+ .rotate96 {transform:rotate(96deg); -ms-transform:rotate(96deg); -webkit-transform:rotate(96deg); -moz-transform:rotate(96deg)}
+ .rotate97 {transform:rotate(97deg); -ms-transform:rotate(97deg); -webkit-transform:rotate(97deg); -moz-transform:rotate(97deg)}
+ .rotate98 {transform:rotate(98deg); -ms-transform:rotate(98deg); -webkit-transform:rotate(98deg); -moz-transform:rotate(98deg)}
+ .rotate99 {transform:rotate(99deg); -ms-transform:rotate(99deg); -webkit-transform:rotate(99deg); -moz-transform:rotate(99deg)}
+
+ .rotate100 {transform:rotate(100deg); -ms-transform:rotate(100deg); -webkit-transform:rotate(100deg); -moz-transform:rotate(100deg)}
+ .rotate101 {transform:rotate(101deg); -ms-transform:rotate(101deg); -webkit-transform:rotate(101deg); -moz-transform:rotate(101deg)}
+ .rotate102 {transform:rotate(102deg); -ms-transform:rotate(102deg); -webkit-transform:rotate(102deg); -moz-transform:rotate(102deg)}
+ .rotate103 {transform:rotate(103deg); -ms-transform:rotate(103deg); -webkit-transform:rotate(103deg); -moz-transform:rotate(103deg)}
+ .rotate104 {transform:rotate(104deg); -ms-transform:rotate(104deg); -webkit-transform:rotate(104deg); -moz-transform:rotate(104deg)}
+ .rotate105 {transform:rotate(105deg); -ms-transform:rotate(105deg); -webkit-transform:rotate(105deg); -moz-transform:rotate(105deg)}
+ .rotate106 {transform:rotate(106deg); -ms-transform:rotate(106deg); -webkit-transform:rotate(106deg); -moz-transform:rotate(106deg)}
+ .rotate107 {transform:rotate(107deg); -ms-transform:rotate(107deg); -webkit-transform:rotate(107deg); -moz-transform:rotate(107deg)}
+ .rotate108 {transform:rotate(108deg); -ms-transform:rotate(108deg); -webkit-transform:rotate(108deg); -moz-transform:rotate(108deg)}
+ .rotate109 {transform:rotate(109deg); -ms-transform:rotate(109deg); -webkit-transform:rotate(109deg); -moz-transform:rotate(109deg)}
+ .rotate110 {transform:rotate(110deg); -ms-transform:rotate(110deg); -webkit-transform:rotate(110deg); -moz-transform:rotate(110deg)}
+ .rotate111 {transform:rotate(111deg); -ms-transform:rotate(111deg); -webkit-transform:rotate(111deg); -moz-transform:rotate(111deg)}
+ .rotate112 {transform:rotate(112deg); -ms-transform:rotate(112deg); -webkit-transform:rotate(112deg); -moz-transform:rotate(112deg)}
+ .rotate113 {transform:rotate(113deg); -ms-transform:rotate(113deg); -webkit-transform:rotate(113deg); -moz-transform:rotate(113deg)}
+ .rotate114 {transform:rotate(114deg); -ms-transform:rotate(114deg); -webkit-transform:rotate(114deg); -moz-transform:rotate(114deg)}
+ .rotate115 {transform:rotate(115deg); -ms-transform:rotate(115deg); -webkit-transform:rotate(115deg); -moz-transform:rotate(115deg)}
+ .rotate116 {transform:rotate(116deg); -ms-transform:rotate(116deg); -webkit-transform:rotate(116deg); -moz-transform:rotate(116deg)}
+ .rotate117 {transform:rotate(117deg); -ms-transform:rotate(117deg); -webkit-transform:rotate(117deg); -moz-transform:rotate(117deg)}
+ .rotate118 {transform:rotate(118deg); -ms-transform:rotate(118deg); -webkit-transform:rotate(118deg); -moz-transform:rotate(118deg)}
+ .rotate119 {transform:rotate(119deg); -ms-transform:rotate(119deg); -webkit-transform:rotate(119deg); -moz-transform:rotate(119deg)}
+ .rotate120 {transform:rotate(120deg); -ms-transform:rotate(120deg); -webkit-transform:rotate(120deg); -moz-transform:rotate(120deg)}
+ .rotate121 {transform:rotate(121deg); -ms-transform:rotate(121deg); -webkit-transform:rotate(121deg); -moz-transform:rotate(121deg)}
+ .rotate122 {transform:rotate(122deg); -ms-transform:rotate(122deg); -webkit-transform:rotate(122deg); -moz-transform:rotate(122deg)}
+ .rotate123 {transform:rotate(123deg); -ms-transform:rotate(123deg); -webkit-transform:rotate(123deg); -moz-transform:rotate(123deg)}
+ .rotate124 {transform:rotate(124deg); -ms-transform:rotate(124deg); -webkit-transform:rotate(124deg); -moz-transform:rotate(124deg)}
+ .rotate125 {transform:rotate(125deg); -ms-transform:rotate(125deg); -webkit-transform:rotate(125deg); -moz-transform:rotate(125deg)}
+ .rotate126 {transform:rotate(126deg); -ms-transform:rotate(126deg); -webkit-transform:rotate(126deg); -moz-transform:rotate(126deg)}
+ .rotate127 {transform:rotate(127deg); -ms-transform:rotate(127deg); -webkit-transform:rotate(127deg); -moz-transform:rotate(127deg)}
+ .rotate128 {transform:rotate(128deg); -ms-transform:rotate(128deg); -webkit-transform:rotate(128deg); -moz-transform:rotate(128deg)}
+ .rotate129 {transform:rotate(129deg); -ms-transform:rotate(129deg); -webkit-transform:rotate(129deg); -moz-transform:rotate(129deg)}
+ .rotate130 {transform:rotate(130deg); -ms-transform:rotate(130deg); -webkit-transform:rotate(130deg); -moz-transform:rotate(130deg)}
+ .rotate131 {transform:rotate(131deg); -ms-transform:rotate(131deg); -webkit-transform:rotate(131deg); -moz-transform:rotate(131deg)}
+ .rotate132 {transform:rotate(132deg); -ms-transform:rotate(132deg); -webkit-transform:rotate(132deg); -moz-transform:rotate(132deg)}
+ .rotate133 {transform:rotate(133deg); -ms-transform:rotate(133deg); -webkit-transform:rotate(133deg); -moz-transform:rotate(133deg)}
+ .rotate134 {transform:rotate(134deg); -ms-transform:rotate(134deg); -webkit-transform:rotate(134deg); -moz-transform:rotate(134deg)}
+ .rotate135 {transform:rotate(135deg); -ms-transform:rotate(135deg); -webkit-transform:rotate(135deg); -moz-transform:rotate(135deg)}
+ .rotate136 {transform:rotate(136deg); -ms-transform:rotate(136deg); -webkit-transform:rotate(136deg); -moz-transform:rotate(136deg)}
+ .rotate137 {transform:rotate(137deg); -ms-transform:rotate(137deg); -webkit-transform:rotate(137deg); -moz-transform:rotate(137deg)}
+ .rotate138 {transform:rotate(138deg); -ms-transform:rotate(138deg); -webkit-transform:rotate(138deg); -moz-transform:rotate(138deg)}
+ .rotate139 {transform:rotate(139deg); -ms-transform:rotate(139deg); -webkit-transform:rotate(139deg); -moz-transform:rotate(139deg)}
+ .rotate140 {transform:rotate(140deg); -ms-transform:rotate(140deg); -webkit-transform:rotate(140deg); -moz-transform:rotate(140deg)}
+ .rotate141 {transform:rotate(141deg); -ms-transform:rotate(141deg); -webkit-transform:rotate(141deg); -moz-transform:rotate(141deg)}
+ .rotate142 {transform:rotate(142deg); -ms-transform:rotate(142deg); -webkit-transform:rotate(142deg); -moz-transform:rotate(142deg)}
+ .rotate143 {transform:rotate(143deg); -ms-transform:rotate(143deg); -webkit-transform:rotate(143deg); -moz-transform:rotate(143deg)}
+ .rotate144 {transform:rotate(144deg); -ms-transform:rotate(144deg); -webkit-transform:rotate(144deg); -moz-transform:rotate(144deg)}
+ .rotate145 {transform:rotate(145deg); -ms-transform:rotate(145deg); -webkit-transform:rotate(145deg); -moz-transform:rotate(145deg)}
+ .rotate146 {transform:rotate(146deg); -ms-transform:rotate(146deg); -webkit-transform:rotate(146deg); -moz-transform:rotate(146deg)}
+ .rotate147 {transform:rotate(147deg); -ms-transform:rotate(147deg); -webkit-transform:rotate(147deg); -moz-transform:rotate(147deg)}
+ .rotate148 {transform:rotate(148deg); -ms-transform:rotate(148deg); -webkit-transform:rotate(148deg); -moz-transform:rotate(148deg)}
+ .rotate149 {transform:rotate(149deg); -ms-transform:rotate(149deg); -webkit-transform:rotate(149deg); -moz-transform:rotate(149deg)}
+ .rotate150 {transform:rotate(150deg); -ms-transform:rotate(150deg); -webkit-transform:rotate(150deg); -moz-transform:rotate(150deg)}
+ .rotate151 {transform:rotate(151deg); -ms-transform:rotate(151deg); -webkit-transform:rotate(151deg); -moz-transform:rotate(151deg)}
+ .rotate152 {transform:rotate(152deg); -ms-transform:rotate(152deg); -webkit-transform:rotate(152deg); -moz-transform:rotate(152deg)}
+ .rotate153 {transform:rotate(153deg); -ms-transform:rotate(153deg); -webkit-transform:rotate(153deg); -moz-transform:rotate(153deg)}
+ .rotate154 {transform:rotate(154deg); -ms-transform:rotate(154deg); -webkit-transform:rotate(154deg); -moz-transform:rotate(154deg)}
+ .rotate155 {transform:rotate(155deg); -ms-transform:rotate(155deg); -webkit-transform:rotate(155deg); -moz-transform:rotate(155deg)}
+ .rotate156 {transform:rotate(156deg); -ms-transform:rotate(156deg); -webkit-transform:rotate(156deg); -moz-transform:rotate(156deg)}
+ .rotate157 {transform:rotate(157deg); -ms-transform:rotate(157deg); -webkit-transform:rotate(157deg); -moz-transform:rotate(157deg)}
+ .rotate158 {transform:rotate(158deg); -ms-transform:rotate(158deg); -webkit-transform:rotate(158deg); -moz-transform:rotate(158deg)}
+ .rotate159 {transform:rotate(159deg); -ms-transform:rotate(159deg); -webkit-transform:rotate(159deg); -moz-transform:rotate(159deg)}
+ .rotate160 {transform:rotate(160deg); -ms-transform:rotate(160deg); -webkit-transform:rotate(160deg); -moz-transform:rotate(160deg)}
+ .rotate161 {transform:rotate(161deg); -ms-transform:rotate(161deg); -webkit-transform:rotate(161deg); -moz-transform:rotate(161deg)}
+ .rotate162 {transform:rotate(162deg); -ms-transform:rotate(162deg); -webkit-transform:rotate(162deg); -moz-transform:rotate(162deg)}
+ .rotate163 {transform:rotate(163deg); -ms-transform:rotate(163deg); -webkit-transform:rotate(163deg); -moz-transform:rotate(163deg)}
+ .rotate164 {transform:rotate(164deg); -ms-transform:rotate(164deg); -webkit-transform:rotate(164deg); -moz-transform:rotate(164deg)}
+ .rotate165 {transform:rotate(165deg); -ms-transform:rotate(165deg); -webkit-transform:rotate(165deg); -moz-transform:rotate(165deg)}
+ .rotate166 {transform:rotate(166deg); -ms-transform:rotate(166deg); -webkit-transform:rotate(166deg); -moz-transform:rotate(166deg)}
+ .rotate167 {transform:rotate(167deg); -ms-transform:rotate(167deg); -webkit-transform:rotate(167deg); -moz-transform:rotate(167deg)}
+ .rotate168 {transform:rotate(168deg); -ms-transform:rotate(168deg); -webkit-transform:rotate(168deg); -moz-transform:rotate(168deg)}
+ .rotate169 {transform:rotate(169deg); -ms-transform:rotate(169deg); -webkit-transform:rotate(169deg); -moz-transform:rotate(169deg)}
+ .rotate170 {transform:rotate(170deg); -ms-transform:rotate(170deg); -webkit-transform:rotate(170deg); -moz-transform:rotate(170deg)}
+ .rotate171 {transform:rotate(171deg); -ms-transform:rotate(171deg); -webkit-transform:rotate(171deg); -moz-transform:rotate(171deg)}
+ .rotate172 {transform:rotate(172deg); -ms-transform:rotate(172deg); -webkit-transform:rotate(172deg); -moz-transform:rotate(172deg)}
+ .rotate173 {transform:rotate(173deg); -ms-transform:rotate(173deg); -webkit-transform:rotate(173deg); -moz-transform:rotate(173deg)}
+ .rotate174 {transform:rotate(174deg); -ms-transform:rotate(174deg); -webkit-transform:rotate(174deg); -moz-transform:rotate(174deg)}
+ .rotate175 {transform:rotate(175deg); -ms-transform:rotate(175deg); -webkit-transform:rotate(175deg); -moz-transform:rotate(175deg)}
+ .rotate176 {transform:rotate(176deg); -ms-transform:rotate(176deg); -webkit-transform:rotate(176deg); -moz-transform:rotate(176deg)}
+ .rotate177 {transform:rotate(177deg); -ms-transform:rotate(177deg); -webkit-transform:rotate(177deg); -moz-transform:rotate(177deg)}
+ .rotate178 {transform:rotate(178deg); -ms-transform:rotate(178deg); -webkit-transform:rotate(178deg); -moz-transform:rotate(178deg)}
+ .rotate179 {transform:rotate(179deg); -ms-transform:rotate(179deg); -webkit-transform:rotate(179deg); -moz-transform:rotate(179deg)}
+ .rotate180 {transform:rotate(180deg); -ms-transform:rotate(180deg); -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg)}
+
+/*end of rotation*/

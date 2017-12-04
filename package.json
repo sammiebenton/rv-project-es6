@@ -1,0 +1,42 @@
+{
+  "name": "rv-project-es6",
+  "version": "0.0.1",
+  "description": "Take home Test from RV webpack - es6 - babel - scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "server": "webpack-dev-server --watch --progress --colors",
+    "sass": "sass --watch dist/assets/css/styles.scss:dist/assets/css/styles.css",
+    "babel": "babel --watch ./src/index.js --out-file ./dist/assets/js/index.bundle.js --presets=env",
+    "all": "npm-run-all --parallel sass babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammiebenton/rv-project-es6.git"
+  },
+  "keywords": [
+    "Sammie",
+    "Benton",
+    "RV"
+  ],
+  "author": "Sammie Benton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammiebenton/rv-project-es6/issues"
+  },
+  "homepage": "https://github.com/sammiebenton/rv-project-es6#readme",
+  "dependencies": {
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2"
+  }
+}

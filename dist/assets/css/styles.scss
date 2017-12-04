@@ -1,0 +1,725 @@
+@import './ss-pika.css';
+@import '../fonts/OpenSans.css';
+@import './queries.scss';
+
+.visible{
+	visibility: visible !important;
+}
+.hidden{
+	visibility: hidden !important;
+}
+
+.modal{
+	
+	position: fixed;
+	left: 0; top: 0;
+	width: 100%; height: 100%;
+	background: transparent url('../img/black_opacity.png') 0 0 repeat;
+	background-size: cover;
+	z-index: 200;
+	.modal-body{
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		width: 400px; height: 650px;
+		background: #FFFFFF;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		
+		
+		
+		.modal-header{
+			position: absolute;
+			left: 0; top: 0;
+			width: 100%; height: auto;
+			background: #083d8c;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: left;
+			padding-top: 25px;
+			*{
+				margin: 0; padding: 0;
+			}
+			p{
+				flex: 1;
+				color: #fff;
+				padding-bottom: 25px; padding-left: 25px;
+				font: 1.4em 'OpenSans-Light';
+				
+			}
+			h6{
+				float: left;
+				padding-left: 25px;
+				font: 1em 'OpenSans-Bold';
+				color: #FFFFFF;
+			}
+			#modal-close{
+				position: absolute;
+				top: -15px; right: -10px;
+				width: 30px; height: 30px;
+				background: url('../img/modal-close-icon.png') center no-repeat;
+				background-size: contain;
+				color: white;
+				font: 1.2em 'OpenSans-Bold';
+				cursor: pointer;
+			}
+		}
+		
+		.modal-form{
+			margin: auto;
+			position: absolute;
+			left: 0; top: 0; bottom: 0; right: 0;
+			background: #e5e5e5;
+			width: 100%; height: auto;
+			margin-top: 110px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding-top: 20px;
+			padding-bottom: 40px;
+			
+			#form-title{
+				font: 0.4em 'OpenSans';
+				margin-top: 0px;
+			}
+			
+			.input-group{
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				width: 95%; margin: 0 auto;
+				label{
+					font: 0.6em 'OpenSans-Bold';
+					color: #555;
+					text-align: left;
+					margin-left: 1px;
+					margin-bottom: 5px;
+					margin-top: 7px;
+					&::after{
+						height: 25px; width: 25px;
+						background-color: green;
+					}
+					img{
+						height: 16px; width: 16px;
+						float: right;
+					}
+				}
+				input, textarea{
+					font: 1em 'OpenSans-Light';
+					border: 0; box-shadow: none;
+					padding: 5px;
+				}		
+				textarea{
+					min-height: 75px;
+					border: none;
+				}
+				&:nth-child(2){
+					margin-top: 20px;
+					margin-left: 10px;
+				}
+				&:nth-child(3){
+					margin-top: 10px;
+					width: 50%;
+					margin-left: 9px;
+				}
+				&:nth-child(4){
+					margin-top: 10px;
+				}
+				&:nth-child(5){
+					margin-top: 35px;
+				}
+				&:nth-child(6){		
+					margin-top: 40px;
+					#buttons{
+					button{
+						width: 75px; 
+						padding: 15px;
+						display: inline;
+						flex-direction: column;
+						justify-content: center;
+						text-align: center;
+						border: 1px solid #083d8c;
+						cursor: pointer;
+
+						&:nth-child(1){
+							background: #01c7c6;
+							color: #FFF;
+							margin-left: -220px;
+						}
+						&:nth-child(3){
+							position: absolute;
+							margin-left: 80px;
+							margin-top: 12px;
+							height: 20px;
+						}
+					}
+					}
+					#yesNo{
+						visibility: hidden !important;
+					}
+				}
+					&:nth-child(7){
+						margin-top: 10px;
+						
+						button{
+						box-shadow: none;
+						border: none;
+						padding-top: 20px;
+						padding-bottom: 20px;
+						font: 0.8em 'OpenSans-Bold';
+						cursor: pointer;
+							
+							.modal-submit{
+								position: absolute;
+								right: 100px; top: 463px;
+								height: 20px; width: 20px;
+								background: url('../img/next-arrow.png') center no-repeat;
+								background-size: 80%;
+							}
+						}
+					}
+				}
+			}
+		
+		.modal-footer{
+			position: absolute;
+			left: 0; bottom: 0;
+			width: 100%; height: auto;
+			background: #DDDDDD;
+			font: 0.6em 'OpenSans';
+		}
+		
+		
+	}
+}
+
+
+body{
+	background: transparent url('../img/water-image.png') 0 100px no-repeat;
+	background-size: contain;
+	font: 1em 'OpenSans-Light';
+	padding-top: 25px;
+	overflow-x: hidden !important;
+	min-width: 420px !important;
+}
+
+header{
+	position: absolute;
+	top: 0; left: 0; 
+	width: 100%; height: 25px;
+	background: #083d8c;
+	*{
+		padding: 0; margin: 0;
+	}
+	.inner-header{
+		float: right;
+		width: 420px;
+		p{
+			color: #FFFFFF;
+			font: 'OpenSans-Light';
+			span{
+				a{
+					padding-right: 20px;
+				}
+				img#commercial-icon{
+					height: 16px; width: 16px;
+					margin: -3px -10px;
+				}
+			}
+		}
+	}
+}
+
+//make mini grid
+.grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.grid-1 {
+  display: flex;
+  justify-content: space-between;
+	.col {
+		width: 99%;
+	}
+}
+
+.grid-2 {
+  display: flex;
+  justify-content: space-between;
+	.col {
+		width: 49%;
+	}
+}
+
+.grid-3 {
+  display: flex;
+  justify-content: space-between;
+	.col {
+		width: 32%;
+	}
+}
+
+.grid-4 {
+  display: flex;
+  justify-content: space-between;
+	.col {
+		width: 20%;
+	}
+}
+
+@media (max-width: 450px) {
+}
+
+#topNav { 
+	position: absolute;
+	left: 0; top: 25px;
+	width: 100%; height: 55px;
+	text-align: center;
+	box-shadow: 0px 2px 5px #083d8c;
+
+ul {
+	list-style-type: none;
+	margin-top:-38px;
+	padding: 0;
+	li {
+		a {
+			&:hover {
+				&+.hidden {
+					display: block;
+				}
+			}
+		}
+	}
+}
+li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1px;
+	a {
+		display: block;
+		min-width: 140px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+		color: #000;
+		background: #FFF;
+		text-decoration: none;
+		font-size: 1rem;
+	}
+	&:hover {
+		a {
+			background: #083d8c;
+			color: #FFF;
+		}
+		ul {
+			a {
+				background: #f3f3f3;
+				color: #000;
+				height: 40px;
+				line-height: 40px;
+				&:hover {
+					background: #083d8c;
+					color: #FFFFFF;
+				}
+			}
+		}
+	}
+	ul {
+		position: absolute;
+		display: none;
+		li {
+			display: block;
+			a {
+				width: auto;
+				min-width: 100px;
+				padding: 0 20px;
+			}
+		}
+	}
+}
+.hidden {
+	&:hover {
+		display: block;
+	}
+}
+.show-menu {
+	height: 40px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	background: #fff;
+	text-align: center;
+	display: flex;
+	width: 100% !important;
+	
+	.show-menu-logo{
+		position: absolute;
+		left: 5px; top: 0;
+		height: 55px; width: 150px;
+		background: transparent url('../img/pool-pros-logo.png') center no-repeat;
+		background-size: contain;
+	}
+	
+	.find-pool-pro{
+		position: absolute;
+		right: 190px; top: 5px;
+		width: 120px; height: 42.5px;
+		text-align: center;
+		border-radius: 5px;
+		background: transparent;
+		box-shadow: 0px 0px 2px #083d8c;
+		font: 0.75em 'OpenSans-Bold';
+		color: #083d8c;
+		img{
+			display: inline;
+			&#location{
+				position: absolute;
+				left: 30px; top: 13px;
+				height: 16px; width: 12px;
+				margin: 0px -20px;
+			}
+			p{
+				
+			}
+			
+		}
+		.desktop{ 
+			visibility: visible;
+		}
+	}
+	
+	.show-menu-btn{
+		position: absolute;
+		top: 5px; right: 5px;
+		height: 50px; width: 50px;
+		background: url('../img/menu-icon-mobile.png') center no-repeat;
+		background-size: contain;
+		visibility: hidden;
+	}
+	}
+
+input[type=checkbox] {
+	display: none;
+	&:checked {
+		&~#menu {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+
+
+@media screen and (max-width : 760px) {
+	ul {
+		position: static;
+		display: none;
+		white-space: initial;
+		li {
+			width: 100%;
+		}
+	}
+	li {
+		margin-bottom: 1px;
+		a {
+			width: 100%;
+		}
+	}
+	.show-menu {
+		display: block;
+	}
+}
+	
+	
+}
+
+#filters{
+	margin-top: 200px;
+	background: #efefef;
+	#filter-zip {
+    width: 100%;
+    float: left;
+		text-align: center;
+		font: 1em 'OpenSans-Bold';
+		color: #216ddf;
+	}
+	.col{
+		&#filter-links {
+			width: 100%;
+			float: left;
+			display: flex;
+			justify-content: center;
+			text-align: left;
+				
+				label{
+
+					&#filterResults{
+						position: absolute;
+						font: 1em 'OpenSans-Bold';
+						color: #000000;
+						width: 150px;
+						margin: -10px -155px;
+						
+						span{
+							border-right: 1px solid #ddd;
+							border-left: 1px solid #ddd;
+							padding-right: 10px;
+							padding-left: 10px;
+							visibility: hidden;
+						}
+					}
+				}
+			.input-group{
+				display: inline;
+				padding-right: 30px;
+				padding-bottom: 20px;
+			}
+		}
+	}
+
+	
+//	#filter-zip{
+//		color: #083d8c;
+//		font: 1em 'OpenSans-Bold';
+//		padding: 20px 70px;
+//		max-width: 355px;
+//		height: 30px;
+//		float: left;
+//	}
+//	#filter-links{
+//		padding: 35px;
+//		#checkboxes{
+//			display: flex;
+//			.input-group{
+//				flex-grow: 1;
+//				#filterResults{
+//					font: 1em 'OpenSans-Bold';
+//		//			padding-top: 25px;
+//				}
+//			}
+//		}
+//	}
+}
+
+#dealers{
+	max-width: 1275px; min-height: 550px;
+	margin: 20px auto; overflow: hidden;
+	display: block flex;
+	justify-content: space-between;
+	text-align: center;
+	
+	.dealer{
+		display: inline-block;
+		height: auto; width: 400px;
+		border-right: 1px solid white;
+		text-align: center;
+		
+		float: left;
+		
+		box-shadow: 0px 0px 5px #333;
+		border: 1px solid #999;
+		border-radius: 10px;
+		margin: 10px;
+		
+		overflow: hidden !important;
+		
+		.dealer-title{
+			font: 2em 'OpenSans-Light';
+			padding: 20px 10px 20px 10px;
+			border-bottom: 1px solid #ddd;
+			color: #555; height: 100px;
+			width: auto;
+			margin: 0 auto;
+			
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+		}
+		
+		.dealer-phone-icon{
+			width: 25px; height: 25px;
+			background: url('../img/phone-icon-desktop.png') center no-repeat;
+			background-size: contain;
+			float: left;
+			margin-left: 35px;
+			margin-top: 10px;
+			visibility: visible;
+		}
+		
+		.dealer-phone{
+			font: 2em 'OpenSans-Bold';
+			text-align: center;
+			width: 90%; margin: 0 auto;
+		}
+		.dealer-cant-speak{
+			width: 90%; margin: 0 auto;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-size: 1em;
+			text-align: center;
+			font: 0.5em 'OpenSans-Italic';
+			
+		}
+		.dealer-contact-pro-btn{
+			border: #083d8c solid 1px;
+			border-radius: 5px;
+			margin: 0 auto;
+			width: 190px; height: 45px;
+			font: 0.8em 'OpenSans-Bold';
+			cursor: pointer;
+			
+			p{
+				font: 1em 'OpenSans-Bold';
+				color: #083d8c;
+				margin-left: 15px;
+			}
+			.dealer-contact-pro-icon{
+				position: absolute;
+				margin-top: 13px; margin-left: 28px;
+				height: 18px; width: 18px;
+				background: url('../img/email-icon.png') center no-repeat;
+				background-size: contain;
+			}
+		}
+		.dealer-business-hours{
+			h6{
+				font: 0.8em 'OpenSans-Bold';
+				margin: 5px auto; width: 100%;
+				text-align: center;
+			}
+			p{
+				font: 0.8em 'OpenSans-Light';
+				margin: 0 auto;
+				text-align: center;
+			}
+		}
+		.dealer-footer{
+			width: 400px; height: 100px;
+			background: #efefef;
+			margin-top: 100px;
+			
+		table{
+			width: 100%;
+			padding-top: 20px;
+			tr{
+				td.cert{
+					p{
+				padding: 0; margin: 0;
+						text-align: left;
+					}
+					i{
+						float: left;
+						margin-left: 40px;
+						width: 20px; height: 20px;
+							&#installLogo{
+								background: url('../img/star-installation-pro.png') center no-repeat;
+								background-size: 75%;
+							}
+							&#commLogo{
+								background: url('../img/users-commercial-pro.png') center no-repeat;
+								background-size: 75%;
+							}
+							&#resLogo{
+								background: url('../img/home-residential-pro.png') center no-repeat;
+								background-size: 75%;
+							}
+							&#servLogo{
+								background: url('../img/gear-service-pro.png') center no-repeat;
+								background-size: 75%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+footer{
+	position: inherit;
+	bottom: 0px; left: 0px;
+	width: 100%;
+	background: #083d8c;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	
+	color: #FFF;
+	font: 1em 'OpenSans-Bold';
+	
+	
+	#footer-logo{
+		background: transparent url('../img/pool-pros-logo-footer.png') center no-repeat;
+		background-size: contain;
+		height: 50px; width: 220px;
+		margin: 0 auto;
+	}
+	
+	ul#connect{
+		list-style-type: none;
+		li{
+			color: #FFF;
+			display: inline;
+			img{
+				border: 0px !important;
+				margin-left: 5px;
+				border: 0 !important;
+				&#twitter{
+					width: 14px; height: 16px;
+				}
+				&#facebook{
+					width: 12px; height: 16px;
+				}
+				&#youtube{
+					width: 16px; height: 16px;
+				}
+			}
+		}
+	}
+	
+	
+	#footer{
+		display: block;
+		left: 0; top: 0;
+		width: 100%;
+		text-align: center !important;
+		background: #216ddf;
+		#copy{
+			ul#header-footer{
+				position: sticky;
+					font: 1em 'OpenSans-Light';
+					visibility: hidden;
+					list-style-type: none;
+					margin: 0; padding: 0;
+					width: 100%;
+					color: #FFF;
+				li{
+					display: inline;
+					font: 0.8em 'OpenSans-Light';
+				}
+			}
+			hr{
+				visibility: hidden;
+				border-bottom: 2px solid #DDD;
+				margin: 0 auto;
+				width: 80%;
+				margin-left: 5%;
+			}
+			p{
+				font: 0.8em 'OpenSans-Light';
+			}
+		}
+	}
+}

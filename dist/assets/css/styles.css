@@ -1,0 +1,780 @@
+@import url(./ss-pika.css);
+@import url(../fonts/OpenSans.css);
+@media (max-width: 450px) {
+  body {
+    background: transparent url("../img/water-image.png") center no-repeat;
+    background-size: 100%; }
+
+  .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 360px;
+    height: 100%;
+    background: transparent url("../img/black_opacity.png") 0 0 repeat;
+    background-size: cover;
+    z-index: 200; }
+    .modal .modal-body {
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 350px;
+      height: 690px;
+      background: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center; }
+      .modal .modal-body .input-group .modal-submit {
+        position: absolute;
+        right: 100px;
+        top: 463px;
+        height: 20px;
+        width: 20px;
+        background: url("") center no-repeat;
+        background-size: 80%;
+        visibility: hidden; }
+      .modal .modal-body .input-group#ownPool #buttons {
+        float: left;
+        width: 180px;
+        margin-left: -10px; }
+        .modal .modal-body .input-group#ownPool #buttons button {
+          display: inline-block;
+          margin-left: 10px; }
+      .modal .modal-body .input-group#ownPool #yesNo {
+        margin-top: -50px;
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 130px;
+        visibility: visible; }
+        .modal .modal-body .input-group#ownPool #yesNo input[type="checkbox"] {
+          display: inline;
+          background: #FFF;
+          width: 50px;
+          padding: 0px;
+          margin: 0px; }
+          .modal .modal-body .input-group#ownPool #yesNo input[type="checkbox"] + span {
+            margin-left: -30px; }
+      .modal .modal-body .input-group button[type="submit"] {
+        position: absolute;
+        top: 460px;
+        left: 10px;
+        width: 95%;
+        height: 50px;
+        text-align: right;
+        float: right; }
+
+  header {
+    visibility: hidden !important;
+    height: 25px;
+    width: 100%;
+    background: #083d8c; }
+    header .inner-header p .header-icon {
+      height: 25px;
+      width: 25px;
+      background: #FFF url("../img/action-commercial-icon.png") center no-repeat;
+      background-size: contain; }
+
+  .grid, .grid-1, .grid-2, .grid-3, .grid-4 {
+    display: block; }
+
+  #topNav {
+    margin-top: -25px; }
+    #topNav .show-menu {
+      height: 40px;
+      display: block;
+      text-decoration: none;
+      color: #000;
+      background: #fff;
+      text-align: center;
+      display: flex;
+      width: 100% !important; }
+      #topNav .show-menu .find-pool-pro {
+        position: absolute;
+        left: 190px;
+        top: 5px; }
+        #topNav .show-menu .find-pool-pro .desktop {
+          visibility: hidden; }
+        #topNav .show-menu .find-pool-pro .mobile {
+          visibility: visible; }
+      #topNav .show-menu .show-menu-btn {
+        visibility: visible !important; }
+
+  #filters {
+    margin-top: 200px;
+    background: #efefef;
+    margin-right: 20px; }
+    #filters #filter-zip {
+      float: left;
+      text-align: center;
+      font: 1em 'OpenSans-Bold';
+      color: #216ddf; }
+    #filters .col#filter-links {
+      float: left;
+      display: flex;
+      justify-content: center;
+      float: left;
+      padding: 0;
+      margin: 15px -10px; }
+      #filters .col#filter-links label#filterResults {
+        position: absolute;
+        top: 265px;
+        left: 380px;
+        font: 1em 'OpenSans-Bold';
+        color: #000000;
+        border: 1px solid #ddd;
+        margin: -100px 0px; }
+        #filters .col#filter-links label#filterResults span {
+          height: 16px;
+          width: 16px;
+          border-right: 1px solid #ddd;
+          border-left: 1px solid #ddd;
+          padding-right: 10px;
+          padding-left: 10px; }
+        #filters .col#filter-links label#filterResults span#mobileToggleResults {
+          height: 16px;
+          width: 16px;
+          border-right: 1px solid #ddd;
+          border-left: 1px solid #ddd;
+          padding-right: 10px;
+          padding-left: 10px; }
+      #filters .col#filter-links #checkboxes {
+        margin: 30px -195px;
+        border: 1px solid #ddd; }
+        #filters .col#filter-links #checkboxes .input-group {
+          display: block; }
+
+  #dealers {
+    max-width: 360px;
+    min-height: 550px;
+    margin: 20px auto;
+    overflow: hidden;
+    display: block flex;
+    justify-content: space-between;
+    text-align: center; }
+    #dealers .dealer {
+      display: block;
+      height: auto;
+      max-width: 355px; }
+      #dealers .dealer .dealer-phone .dealer-phone-icon {
+        width: 25px;
+        height: 25px;
+        background: url("../img/phone-icon-desktop.png") center no-repeat;
+        background-size: contain;
+        float: left;
+        margin-left: 75px;
+        margin-top: 10px;
+        visibility: hidden; }
+      #dealers .dealer .dealer-footer {
+        display: block;
+        left: 0;
+        bottom: 0;
+        width: 350px;
+        padding: 0;
+        margin: 0;
+        margin-left: -30px; }
+        #dealers .dealer .dealer-footer table {
+          width: 300px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center; }
+          #dealers .dealer .dealer-footer table tr td {
+            float: left;
+            text-align: left;
+            margin-left: 0;
+            left: 0px;
+            width: 177.5px; }
+
+  footer {
+    width: 200px;
+    background: #083d8c; }
+    footer #footer #copy ul#header-footer {
+      font: 1em 'OpenSans-Light';
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0;
+      color: #FFF;
+      visibility: visible !important; }
+      footer #footer #copy ul#header-footer li {
+        display: inline; }
+        footer #footer #copy ul#header-footer li img#commercial-icon {
+          height: 16px;
+          width: 16px;
+          margin: -3px 10px; }
+    footer #footer #copy hr {
+      visibility: visible;
+      border-bottom: 2px solid #DDD;
+      margin: 0 auto;
+      width: 80%;
+      margin-left: 5%; }
+    footer #footer #copy p {
+      font: 1em 'OpenSans-Light'; } }
+.visible {
+  visibility: visible !important; }
+
+.hidden {
+  visibility: hidden !important; }
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent url("../img/black_opacity.png") 0 0 repeat;
+  background-size: cover;
+  z-index: 200; }
+  .modal .modal-body {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 650px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    .modal .modal-body .modal-header {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: auto;
+      background: #083d8c;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      padding-top: 25px; }
+      .modal .modal-body .modal-header * {
+        margin: 0;
+        padding: 0; }
+      .modal .modal-body .modal-header p {
+        flex: 1;
+        color: #fff;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        font: 1.4em 'OpenSans-Light'; }
+      .modal .modal-body .modal-header h6 {
+        float: left;
+        padding-left: 25px;
+        font: 1em 'OpenSans-Bold';
+        color: #FFFFFF; }
+      .modal .modal-body .modal-header #modal-close {
+        position: absolute;
+        top: -15px;
+        right: -10px;
+        width: 30px;
+        height: 30px;
+        background: url("../img/modal-close-icon.png") center no-repeat;
+        background-size: contain;
+        color: white;
+        font: 1.2em 'OpenSans-Bold';
+        cursor: pointer; }
+    .modal .modal-body .modal-form {
+      margin: auto;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background: #e5e5e5;
+      width: 100%;
+      height: auto;
+      margin-top: 110px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 20px;
+      padding-bottom: 40px; }
+      .modal .modal-body .modal-form #form-title {
+        font: 0.4em 'OpenSans';
+        margin-top: 0px; }
+      .modal .modal-body .modal-form .input-group {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        margin: 0 auto; }
+        .modal .modal-body .modal-form .input-group label {
+          font: 0.6em 'OpenSans-Bold';
+          color: #555;
+          text-align: left;
+          margin-left: 1px;
+          margin-bottom: 5px;
+          margin-top: 7px; }
+          .modal .modal-body .modal-form .input-group label::after {
+            height: 25px;
+            width: 25px;
+            background-color: green; }
+          .modal .modal-body .modal-form .input-group label img {
+            height: 16px;
+            width: 16px;
+            float: right; }
+        .modal .modal-body .modal-form .input-group input, .modal .modal-body .modal-form .input-group textarea {
+          font: 1em 'OpenSans-Light';
+          border: 0;
+          box-shadow: none;
+          padding: 5px; }
+        .modal .modal-body .modal-form .input-group textarea {
+          min-height: 75px;
+          border: none; }
+        .modal .modal-body .modal-form .input-group:nth-child(2) {
+          margin-top: 20px;
+          margin-left: 10px; }
+        .modal .modal-body .modal-form .input-group:nth-child(3) {
+          margin-top: 10px;
+          width: 50%;
+          margin-left: 9px; }
+        .modal .modal-body .modal-form .input-group:nth-child(4) {
+          margin-top: 10px; }
+        .modal .modal-body .modal-form .input-group:nth-child(5) {
+          margin-top: 35px; }
+        .modal .modal-body .modal-form .input-group:nth-child(6) {
+          margin-top: 40px; }
+          .modal .modal-body .modal-form .input-group:nth-child(6) #buttons button {
+            width: 75px;
+            padding: 15px;
+            display: inline;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            border: 1px solid #083d8c;
+            cursor: pointer; }
+            .modal .modal-body .modal-form .input-group:nth-child(6) #buttons button:nth-child(1) {
+              background: #01c7c6;
+              color: #FFF;
+              margin-left: -220px; }
+            .modal .modal-body .modal-form .input-group:nth-child(6) #buttons button:nth-child(3) {
+              position: absolute;
+              margin-left: 80px;
+              margin-top: 12px;
+              height: 20px; }
+          .modal .modal-body .modal-form .input-group:nth-child(6) #yesNo {
+            visibility: hidden !important; }
+        .modal .modal-body .modal-form .input-group:nth-child(7) {
+          margin-top: 10px; }
+          .modal .modal-body .modal-form .input-group:nth-child(7) button {
+            box-shadow: none;
+            border: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font: 0.8em 'OpenSans-Bold';
+            cursor: pointer; }
+            .modal .modal-body .modal-form .input-group:nth-child(7) button .modal-submit {
+              position: absolute;
+              right: 100px;
+              top: 463px;
+              height: 20px;
+              width: 20px;
+              background: url("../img/next-arrow.png") center no-repeat;
+              background-size: 80%; }
+    .modal .modal-body .modal-footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: auto;
+      background: #DDDDDD;
+      font: 0.6em 'OpenSans'; }
+
+body {
+  background: transparent url("../img/water-image.png") 0 100px no-repeat;
+  background-size: contain;
+  font: 1em 'OpenSans-Light';
+  padding-top: 25px;
+  overflow-x: hidden !important;
+  min-width: 420px !important; }
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  background: #083d8c; }
+  header * {
+    padding: 0;
+    margin: 0; }
+  header .inner-header {
+    float: right;
+    width: 420px; }
+    header .inner-header p {
+      color: #FFFFFF;
+      font: 'OpenSans-Light'; }
+      header .inner-header p span a {
+        padding-right: 20px; }
+      header .inner-header p span img#commercial-icon {
+        height: 16px;
+        width: 16px;
+        margin: -3px -10px; }
+
+.grid {
+  display: flex; }
+
+.col {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center; }
+
+.grid-1 {
+  display: flex;
+  justify-content: space-between; }
+  .grid-1 .col {
+    width: 99%; }
+
+.grid-2 {
+  display: flex;
+  justify-content: space-between; }
+  .grid-2 .col {
+    width: 49%; }
+
+.grid-3 {
+  display: flex;
+  justify-content: space-between; }
+  .grid-3 .col {
+    width: 32%; }
+
+.grid-4 {
+  display: flex;
+  justify-content: space-between; }
+  .grid-4 .col {
+    width: 20%; }
+
+#topNav {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  box-shadow: 0px 2px 5px #083d8c; }
+  #topNav ul {
+    list-style-type: none;
+    margin-top: -38px;
+    padding: 0; }
+    #topNav ul li a:hover + .hidden {
+      display: block; }
+  #topNav li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1px; }
+    #topNav li a {
+      display: block;
+      min-width: 140px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      color: #000;
+      background: #FFF;
+      text-decoration: none;
+      font-size: 1rem; }
+    #topNav li:hover a {
+      background: #083d8c;
+      color: #FFF; }
+    #topNav li:hover ul a {
+      background: #f3f3f3;
+      color: #000;
+      height: 40px;
+      line-height: 40px; }
+      #topNav li:hover ul a:hover {
+        background: #083d8c;
+        color: #FFFFFF; }
+    #topNav li ul {
+      position: absolute;
+      display: none; }
+      #topNav li ul li {
+        display: block; }
+        #topNav li ul li a {
+          width: auto;
+          min-width: 100px;
+          padding: 0 20px; }
+  #topNav .hidden:hover {
+    display: block; }
+  #topNav .show-menu {
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    width: 100% !important; }
+    #topNav .show-menu .show-menu-logo {
+      position: absolute;
+      left: 5px;
+      top: 0;
+      height: 55px;
+      width: 150px;
+      background: transparent url("../img/pool-pros-logo.png") center no-repeat;
+      background-size: contain; }
+    #topNav .show-menu .find-pool-pro {
+      position: absolute;
+      right: 190px;
+      top: 5px;
+      width: 120px;
+      height: 42.5px;
+      text-align: center;
+      border-radius: 5px;
+      background: transparent;
+      box-shadow: 0px 0px 2px #083d8c;
+      font: 0.75em 'OpenSans-Bold';
+      color: #083d8c; }
+      #topNav .show-menu .find-pool-pro img {
+        display: inline; }
+        #topNav .show-menu .find-pool-pro img#location {
+          position: absolute;
+          left: 30px;
+          top: 13px;
+          height: 16px;
+          width: 12px;
+          margin: 0px -20px; }
+      #topNav .show-menu .find-pool-pro .desktop {
+        visibility: visible; }
+    #topNav .show-menu .show-menu-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      height: 50px;
+      width: 50px;
+      background: url("../img/menu-icon-mobile.png") center no-repeat;
+      background-size: contain;
+      visibility: hidden; }
+  #topNav input[type=checkbox] {
+    display: none; }
+    #topNav input[type=checkbox]:checked ~ #menu {
+      display: block;
+      margin: 0 auto; }
+  @media screen and (max-width: 760px) {
+    #topNav ul {
+      position: static;
+      display: none;
+      white-space: initial; }
+      #topNav ul li {
+        width: 100%; }
+    #topNav li {
+      margin-bottom: 1px; }
+      #topNav li a {
+        width: 100%; }
+    #topNav .show-menu {
+      display: block; } }
+
+#filters {
+  margin-top: 200px;
+  background: #efefef; }
+  #filters #filter-zip {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font: 1em 'OpenSans-Bold';
+    color: #216ddf; }
+  #filters .col#filter-links {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: left; }
+    #filters .col#filter-links label#filterResults {
+      position: absolute;
+      font: 1em 'OpenSans-Bold';
+      color: #000000;
+      width: 150px;
+      margin: -10px -155px; }
+      #filters .col#filter-links label#filterResults span {
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        padding-right: 10px;
+        padding-left: 10px;
+        visibility: hidden; }
+    #filters .col#filter-links .input-group {
+      display: inline;
+      padding-right: 30px;
+      padding-bottom: 20px; }
+
+#dealers {
+  max-width: 1275px;
+  min-height: 550px;
+  margin: 20px auto;
+  overflow: hidden;
+  display: block flex;
+  justify-content: space-between;
+  text-align: center; }
+  #dealers .dealer {
+    display: inline-block;
+    height: auto;
+    width: 400px;
+    border-right: 1px solid white;
+    text-align: center;
+    float: left;
+    box-shadow: 0px 0px 5px #333;
+    border: 1px solid #999;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden !important; }
+    #dealers .dealer .dealer-title {
+      font: 2em 'OpenSans-Light';
+      padding: 20px 10px 20px 10px;
+      border-bottom: 1px solid #ddd;
+      color: #555;
+      height: 100px;
+      width: auto;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center; }
+    #dealers .dealer .dealer-phone-icon {
+      width: 25px;
+      height: 25px;
+      background: url("../img/phone-icon-desktop.png") center no-repeat;
+      background-size: contain;
+      float: left;
+      margin-left: 35px;
+      margin-top: 10px;
+      visibility: visible; }
+    #dealers .dealer .dealer-phone {
+      font: 2em 'OpenSans-Bold';
+      text-align: center;
+      width: 90%;
+      margin: 0 auto; }
+    #dealers .dealer .dealer-cant-speak {
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 1em;
+      text-align: center;
+      font: 0.5em 'OpenSans-Italic'; }
+    #dealers .dealer .dealer-contact-pro-btn {
+      border: #083d8c solid 1px;
+      border-radius: 5px;
+      margin: 0 auto;
+      width: 190px;
+      height: 45px;
+      font: 0.8em 'OpenSans-Bold';
+      cursor: pointer; }
+      #dealers .dealer .dealer-contact-pro-btn p {
+        font: 1em 'OpenSans-Bold';
+        color: #083d8c;
+        margin-left: 15px; }
+      #dealers .dealer .dealer-contact-pro-btn .dealer-contact-pro-icon {
+        position: absolute;
+        margin-top: 13px;
+        margin-left: 28px;
+        height: 18px;
+        width: 18px;
+        background: url("../img/email-icon.png") center no-repeat;
+        background-size: contain; }
+    #dealers .dealer .dealer-business-hours h6 {
+      font: 0.8em 'OpenSans-Bold';
+      margin: 5px auto;
+      width: 100%;
+      text-align: center; }
+    #dealers .dealer .dealer-business-hours p {
+      font: 0.8em 'OpenSans-Light';
+      margin: 0 auto;
+      text-align: center; }
+    #dealers .dealer .dealer-footer {
+      width: 400px;
+      height: 100px;
+      background: #efefef;
+      margin-top: 100px; }
+      #dealers .dealer .dealer-footer table {
+        width: 100%;
+        padding-top: 20px; }
+        #dealers .dealer .dealer-footer table tr td.cert p {
+          padding: 0;
+          margin: 0;
+          text-align: left; }
+        #dealers .dealer .dealer-footer table tr td.cert i {
+          float: left;
+          margin-left: 40px;
+          width: 20px;
+          height: 20px; }
+          #dealers .dealer .dealer-footer table tr td.cert i#installLogo {
+            background: url("../img/star-installation-pro.png") center no-repeat;
+            background-size: 75%; }
+          #dealers .dealer .dealer-footer table tr td.cert i#commLogo {
+            background: url("../img/users-commercial-pro.png") center no-repeat;
+            background-size: 75%; }
+          #dealers .dealer .dealer-footer table tr td.cert i#resLogo {
+            background: url("../img/home-residential-pro.png") center no-repeat;
+            background-size: 75%; }
+          #dealers .dealer .dealer-footer table tr td.cert i#servLogo {
+            background: url("../img/gear-service-pro.png") center no-repeat;
+            background-size: 75%; }
+
+footer {
+  position: inherit;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: #083d8c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #FFF;
+  font: 1em 'OpenSans-Bold'; }
+  footer #footer-logo {
+    background: transparent url("../img/pool-pros-logo-footer.png") center no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 220px;
+    margin: 0 auto; }
+  footer ul#connect {
+    list-style-type: none; }
+    footer ul#connect li {
+      color: #FFF;
+      display: inline; }
+      footer ul#connect li img {
+        border: 0px !important;
+        margin-left: 5px;
+        border: 0 !important; }
+        footer ul#connect li img#twitter {
+          width: 14px;
+          height: 16px; }
+        footer ul#connect li img#facebook {
+          width: 12px;
+          height: 16px; }
+        footer ul#connect li img#youtube {
+          width: 16px;
+          height: 16px; }
+  footer #footer {
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center !important;
+    background: #216ddf; }
+    footer #footer #copy ul#header-footer {
+      position: sticky;
+      font: 1em 'OpenSans-Light';
+      visibility: hidden;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      color: #FFF; }
+      footer #footer #copy ul#header-footer li {
+        display: inline;
+        font: 0.8em 'OpenSans-Light'; }
+    footer #footer #copy hr {
+      visibility: hidden;
+      border-bottom: 2px solid #DDD;
+      margin: 0 auto;
+      width: 80%;
+      margin-left: 5%; }
+    footer #footer #copy p {
+      font: 0.8em 'OpenSans-Light'; }
+
+/*# sourceMappingURL=styles.css.map */
