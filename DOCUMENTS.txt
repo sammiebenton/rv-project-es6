@@ -1,0 +1,19 @@
+Although, I had the permission to use JavaScript libraries like React, Angular, and Vue, I wanted to show my skills in as much Vanilla JavaScript as possible, but that changed a little.  Lol! I ended up giving in and changed paths a bit near the end while working on cleaning up the code.  I decided to split it into three parts.  So, you’ll see a blend of VanillaJS, jQuery, and ES6 in this project.  
+
+** I ran in a bit of a speed bump with the filtering because of the way I chose to bring the data from the API, so, it works, but unclicking the box while others are checked is the bug.  This can be down with more time, but I think it shows the touch of what I can spin out fast functionality wise.  
+
+** The Find Pool Pro button in the navigation bar spins out a random Pool Pros since all of the dealer have the same zipcode.  So, I found no need to add and map API's to grab the nearest dealer
+
+** Clicking on the Contact This Pro button returns a the modal with the the name of the dealer clicked, and a message with the dealer's name 
+
+** The Form only has the circles as shows in the psd.  I was not sure if I need to add any validation code.  
+
+** The Modal could be better for the mobile, but since I was able to resize the form and keep all the same content to I did not change the number into a "click to call" button, or change the submit button
+
+** Most icons were included, but some were not changes for mobile, or desktop
+
+** The page resets on resize because I was afraid someone would forget to reset it when moving on desktop to mobile.
+
+** The mobile version can be seen under 450px, but at best at 420px.
+
+** Webpack was where I first started, but to keep this project lite, I chose to use the babel-cli, and sass-cli and ran them parellel with npm-run-all
