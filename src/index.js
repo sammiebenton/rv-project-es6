@@ -1,5 +1,11 @@
-$.get('../../dist/assets/data/dealers.js', function( siteData ) {
-//$.get( '/dist/assets/data/dealers.json', function( siteData ) {
+$.getJSON( '../../dist/assets/data/dealers.js', function( siteData ) {
+
+
+
+//let getDealers = new XMLHttpRequest();
+//getDealers.open('GET', '/dist/assets/data/dealers.json')
+//getDealers.onload = function(){
+//let siteData = JSON.parse(getDealers.responseText);
 	
 //	print to div faster
 	const print = (target, message) => {
@@ -53,54 +59,56 @@ $.get('../../dist/assets/data/dealers.js', function( siteData ) {
 		
 }//end of dealers loop
 	
-//			hide initial dealers
-$('.dealer').hide();		
-
-
-$('td.cert p').each(function() {
-	let text = $(this).text();
-	$(this).text(text.replace('undefined', '')); 
-	$('td.cert i').siblings('.servLogo').hide(); 
-});
+//			remove all undefined td
+			$(function() {
+				$('.dealer').hide();		
+				
+				
+				$('td.cert p').each(function() {
+					let text = $(this).text();
+					$(this).text(text.replace('undefined', '')); 
+					$('td.cert i').siblings('.servLogo').hide(); 
+				});
 				
 //				if this is clicked fadeIn(1000) dealers with matching certs
 //				start with showing all witih service pro
-$('#401929, #401928, #401927, #401924').fadeIn(1000);
-
-$('#serviceCheckBox').on('click', function() {
-	$(this).attr('checked', 'checked')
-	if ( $(this).prop("checked") === true ) {
-		$('#401929, #401928, #401927, #401924').fadeIn(1000);
-	}else if ( $(this).prop("checked") === false ) {
-		$('#401929, #401928, #401927, #401924').fadeOut(200);
-	}
-})
-
-$('#installCheckBox').on('click', function() {
-	$(this).attr('checked', 'checked')
-	if ( $(this).prop("checked") === true ) {
-		$('#401929, #401928, #401927, #401926, #401925, #401924, #401923').fadeIn(1000);
-	}else if ( $(this).prop("checked") === false ) {
-		$('#401929, #401928, #401927, #401926, #401925, #401924, #401923').fadeOut(200);
-	}
-})
+				$('#401929, #401928, #401927, #401924').fadeIn(1000);
 				
-$('#residentialCheckBox').on('click', function() {
-	$(this).attr('checked', 'checked')
-	if ( $(this).prop("checked") === true ) {
-		$('#401929, #401928, #401927, #401926, #401925, #401924').fadeIn(1000);
-	}else if ( $(this).prop("checked") === false ) {
-		$('#401929, #401928, #401927, #401926, #401925, #401924').fadeOut(200);
-	}
-})
-
-$('#commercialCheckBox').on('click', function() {
-	$(this).attr('checked', 'checked')
-	if ( $(this).prop("checked") === true ) {
-		$('#401928, #401927, #401926, #401924, #401923').fadeIn(1000);
-	}else if ( $(this).prop("checked") === false ) {
-		$('#401928, #401927, #401926, #401924, #401923').fadeOut(200);
-	}
+				$('#serviceCheckBox').on('click', function() {
+					$(this).attr('checked', 'checked')
+					if ( $(this).prop("checked") === true ) {
+						$('#401929, #401928, #401927, #401924').fadeIn(1000);
+					}else if ( $(this).prop("checked") === false ) {
+						$('#401929, #401928, #401927, #401924').fadeOut(200);
+					}
+				})
+				
+				$('#installCheckBox').on('click', function() {
+					$(this).attr('checked', 'checked')
+					if ( $(this).prop("checked") === true ) {
+						$('#401929, #401928, #401927, #401926, #401925, #401924, #401923').fadeIn(1000);
+					}else if ( $(this).prop("checked") === false ) {
+						$('#401929, #401928, #401927, #401926, #401925, #401924, #401923').fadeOut(200);
+					}
+				})
+				
+				$('#residentialCheckBox').on('click', function() {
+					$(this).attr('checked', 'checked')
+					if ( $(this).prop("checked") === true ) {
+						$('#401929, #401928, #401927, #401926, #401925, #401924').fadeIn(1000);
+					}else if ( $(this).prop("checked") === false ) {
+						$('#401929, #401928, #401927, #401926, #401925, #401924').fadeOut(200);
+					}
+				})
+				
+				$('#commercialCheckBox').on('click', function() {
+					$(this).attr('checked', 'checked')
+					if ( $(this).prop("checked") === true ) {
+						$('#401928, #401927, #401926, #401924, #401923').fadeIn(1000);
+					}else if ( $(this).prop("checked") === false ) {
+						$('#401928, #401927, #401926, #401924, #401923').fadeOut(200);
+					}
+				})
 				//end of filter
 				
 				
@@ -149,6 +157,9 @@ $('#commercialCheckBox').on('click', function() {
 				$(window).on('resize', function() {
 					window.location.href=window.location.href
 				})
+				
+				
+				
 				
 			});//end of jquery
 
