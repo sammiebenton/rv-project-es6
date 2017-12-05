@@ -1,7 +1,8 @@
 $.getJSON( '../../dist/assets/data/dealers.js', function( siteData ) {
 
 
-
+//VanillaJS XMl Request
+	
 //let getDealers = new XMLHttpRequest();
 //getDealers.open('GET', '/dist/assets/data/dealers.json')
 //getDealers.onload = function(){
