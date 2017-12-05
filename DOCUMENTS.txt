@@ -1,5 +1,7 @@
 Although, I had the permission to use JavaScript libraries like React, Angular, and Vue, I wanted to show my skills in as much Vanilla JavaScript as possible, but that changed a little.  Lol! I ended up giving in and changed paths a bit near the end while working on cleaning up the code.  I decided to split it into three parts.  So, you’ll see a blend of VanillaJS, jQuery, and ES6 in this project.  
 
+** I used xmlhttprequest to pull in and place the data, and jsonp methods to pull in the data on to the page.  No server needs to be started.  Just a text editor with a preview works fine.
+
 ** I ran in a bit of a speed bump with the filtering because of the way I chose to bring the data from the API, so, it works, but unclicking the box while others are checked is the bug.  This can be down with more time, but I think it shows the touch of what I can spin out fast functionality wise.  
 
 ** The Find Pool Pro button in the navigation bar spins out a random Pool Pros since all of the dealer have the same zipcode.  So, I found no need to add and map API's to grab the nearest dealer
@@ -17,3 +19,5 @@ Although, I had the permission to use JavaScript libraries like React, Angular, 
 ** The mobile version can be seen under 450px, but at best at 420px.
 
 ** Webpack was where I first started, but to keep this project lite, I chose to use the babel-cli, and sass-cli and ran them parellel with npm-run-all
+
+** All the code is s bit verbose, but I wanted to lay it out as detailed as I could.  
