@@ -5,7 +5,7 @@ module.exports = {
 	
     output: {
         path: path.join(__dirname, "dist/assets/js/"),
-        filename: 'index.bundle.js'
+        filename: 'index.bundle-2.js'
     },
 	
 		module: {
@@ -18,15 +18,15 @@ module.exports = {
 						presets: ['env']
 					}
 				},
-				{
-					test: /\.scss$/,
-					loader: 'style-loader!css-loader!sass-loader'
-				},
-				{
-					test: /\.png$/,
-					loader: "url-loader",
-					query: { mimetype: "image/png" }
-				}
+//				{
+//					test: /\.scss$/,
+//					loader: 'style-loader!css-loader!sass-loader'
+//				},
+//				{
+//					test: /\.png$/,
+//					loader: "url-loader",
+//					query: { mimetype: "image/png" }
+//				}
 			]
 		}
 };
